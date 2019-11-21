@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    
+    <servlet>
+        <servlet-name>GetAvengers</servlet-name>
+        <servlet-class>com.mycompany.nicholas_dipietrantonio_a2.Servlets.GetAvengers</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetAvengers</servlet-name>
+        <url-pattern>/GetAvengers.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddAvenger</servlet-name>
+        <servlet-class>com.mycompany.nicholas_dipietrantonio_a2.Servlets.AddAvenger</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddAvenger</servlet-name>
+        <url-pattern>/AddAvenger.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>RemoveAvenger</servlet-name>
+        <servlet-class>com.mycompany.nicholas_dipietrantonio_a2.Servlets.RemoveAvenger</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemoveAvenger</servlet-name>
+        <url-pattern>/RemoveAvenger.do</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

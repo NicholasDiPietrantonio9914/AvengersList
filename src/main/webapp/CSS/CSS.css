@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 23, 2019, 3:39:34 PM
+    Author     : Nicholas Di Pietrantonio
+    My CSS may not be pretty but atleast I tried okay?
+*/
+
+label {
+    display:block;
+    width:101px;
+    float:left;
+}
+div {
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(to left, darkslategray, darkslateblue);
+    width: 40%;
+    min-height: 420px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+}
+body{
+    background-image: linear-gradient(to right, darkslategray, black);
+    color: lightgrey;
+}
+.submit {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    border-radius: 10px;
+}
+.back {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    border-radius: 10px;
+}
+.button {
+    width: 150px;
+    border-radius: 10px;
+}
